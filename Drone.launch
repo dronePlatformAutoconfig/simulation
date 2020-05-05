@@ -1,6 +1,0 @@
-<launch>
-
-	<node name="drone_station_simulation" pkg = "drone" type = "drone_station_simulation.py" />
-	<node name="roof_node" pkg = "drone" type = "roof_node.py" output ="screen" />
-
-</launch>

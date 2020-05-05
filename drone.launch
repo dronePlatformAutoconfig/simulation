@@ -1,0 +1,4 @@
+<launch>
+	<node name="drone_station_simulation" pkg = "drone" type = "drone_station_simulation" />
+	<node name="roof_node" pkg = "drone" type = "roof_node"/>
+</launch>
