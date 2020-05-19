@@ -11,7 +11,7 @@ def sim_charge():
 
 def drone_station_sim():
     charge_pub = rospy.Publisher('/charge', String, queue_size=10)
-    center_pub = rospy.Publisher('/center', String, queue_size=10)
+    center_pub = rospy.Publisher('/centring_sys_state', String, queue_size=10)
     roof_pub = rospy.Publisher('/roof_state', String, queue_size=10)
     rospy.init_node('drone_station', anonymous=True)
     rate = rospy.Rate(10) # 10hz
